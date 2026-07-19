@@ -1,0 +1,6 @@
+{
+  "name": "Maneli Kernel",
+  "description": "The Universal Engine for Vertical SaaS - Secure Multi-Tenant Architecture & Stripe Revenue Layer",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
