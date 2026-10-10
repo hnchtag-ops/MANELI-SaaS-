@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 MANELI SaaS Kernel
 
-# Run and deploy your AI Studio app
+A high-performance SaaS core application built with TypeScript, Node.js, and PL/pgSQL, integrated with Google AI Studio APIs for automated backend intelligence and workflow execution.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/1a41fb17-a6d2-482a-ad49-13eb233b114f
+## 🛠️ Tech Stack & Architecture
 
-## Run Locally
+* **Languages:** TypeScript (94.3%), PL/pgSQL (5.3%), SQL
+* **Backend & Server:** Node.js, `server.ts`, TypeScript Middleware (`middleware.ts`)
+* **AI Integration:** Google AI Studio / Gemini API (`assets/.aistudio`)
+* **Build Tooling:** Vite (`vite.config.ts`), Bun (`bun.lock`)
+* **Database:** PostgreSQL / PL/pgSQL procedures
 
-**Prerequisites:**  Node.js
+---
 
+## 🔑 Key Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **AI-Enabled Workflows:** Integrated Google AI Studio API for real-time model prompting and dynamic data synthesis.
+* **Authentication & API Middleware:** Custom authentication routing (`app/api/auth`) and middleware guards for secure endpoint access.
+* **Database Management:** Optimized PL/pgSQL routines for high-speed data handling and transactional operations.
+
+---
+
+## ⚙️ Local Development Setup
+
+### Prerequisites
+* Node.js (v18+)
+* Bun or NPM
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/hnchtag-ops/MANELI-SaaS-.git](https://github.com/hnchtag-ops/MANELI-SaaS-.git)
+   cd MANELI-SaaS-
